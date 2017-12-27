@@ -11,7 +11,7 @@ exports.handler = (event, context, callback) => {
     // Retrieve parameters from export handler event
     var bucket = event.bucket;
     var oldFilename = event.key;
-        var alert = event.Alert;
+    var alert = event.Alert;
 
     // "New file" retains same name, just the path is changed from upload to archive
     var newFilename = '';
